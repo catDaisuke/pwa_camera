@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "./precache-manifest.f02930b198f33cfce37269970cec633c.js"
+  "./precache-manifest.db5bace7632effda349f537e48303213.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ibm-camera-pwa"});
@@ -30,7 +30,7 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "0ec0346a4fdbd23eff257efd91966190"
+    "revision": "4e6b3b77d3d70c3ee3abc3597cca9262"
   },
   {
     "url": "precache-manifest.251e893d92e40a4be5afe09c1f2f9349.js",
@@ -77,8 +77,12 @@ self.__precacheManifest = [
     "revision": "c38732ee4c908431cd0131c300051957"
   },
   {
+    "url": "precache-manifest.f02930b198f33cfce37269970cec633c.js",
+    "revision": "f02930b198f33cfce37269970cec633c"
+  },
+  {
     "url": "service-worker.js",
-    "revision": "71bac1e726334b1a1dce1bdb08d59a10"
+    "revision": "d2602d34a0455142219a603e398c0b52"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
