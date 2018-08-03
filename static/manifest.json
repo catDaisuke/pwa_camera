@@ -1,6 +1,6 @@
 {
-  "name": "ibm-camera-pwa",
-  "short_name": "ibm-camera-pwa",
+  "name": "EmoFace",
+  "short_name": "EmoFace",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
