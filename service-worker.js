@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "./precache-manifest.1bc51c3ca161f888e949c7879106b068.js"
+  "./precache-manifest.b5228902570eeb8d7002c708428ab828.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ibm-camera-pwa"});
@@ -30,15 +30,23 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "7ab5f32a1442eeb3b09c433418f977c1"
+    "revision": "dbdd044ee7e6c171a98961aa703fe262"
   },
   {
     "url": "precache-manifest.0108354118ff514ff83222dc57e06a17.js",
     "revision": "0108354118ff514ff83222dc57e06a17"
   },
   {
+    "url": "precache-manifest.01caec2cf674d5092338aa034416a756.js",
+    "revision": "01caec2cf674d5092338aa034416a756"
+  },
+  {
     "url": "precache-manifest.157e582af6eee7f13ebafb5362b7f074.js",
     "revision": "157e582af6eee7f13ebafb5362b7f074"
+  },
+  {
+    "url": "precache-manifest.1bc51c3ca161f888e949c7879106b068.js",
+    "revision": "1bc51c3ca161f888e949c7879106b068"
   },
   {
     "url": "precache-manifest.227affe45b13339767ed35568899d27d.js",
@@ -85,6 +93,10 @@ self.__precacheManifest = [
     "revision": "8bae9e82292e297c63d6de30ba881dff"
   },
   {
+    "url": "precache-manifest.93c827f1ede4a87042c6d325829dc11c.js",
+    "revision": "93c827f1ede4a87042c6d325829dc11c"
+  },
+  {
     "url": "precache-manifest.a20130eebbdeaead507b164eb49f9018.js",
     "revision": "a20130eebbdeaead507b164eb49f9018"
   },
@@ -129,8 +141,12 @@ self.__precacheManifest = [
     "revision": "fa1581fe9391f6161b4748ccb7bec36a"
   },
   {
+    "url": "precache-manifest.fed63579d84eab6568351f66547df3b0.js",
+    "revision": "fed63579d84eab6568351f66547df3b0"
+  },
+  {
     "url": "service-worker.js",
-    "revision": "95586346721bc06a05bb1fcf440a6981"
+    "revision": "960ee3b77403fccc2a8086b44e3ef06e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
